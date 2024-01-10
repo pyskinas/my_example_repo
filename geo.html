@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Geo</title>
+    </head>
+    <body>
+        Hello, THIS IS VITALIS.
+        <script>
+            navigator.geolocation.getCurrentPosition(function(position) {
+                document.write(position.coords.latitude + ", " + position.coords.longitude)
+            })
+        </script>
+    </body>
+</html>
